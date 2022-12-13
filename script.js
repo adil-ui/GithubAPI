@@ -14,7 +14,7 @@ form.addEventListener('submit', event =>{
                 userImg.src = user.avatar_url
                 document.querySelector('h5').innerText = user.login 
                 document.querySelector('h3').innerText = user.name
-                document.querySelector('a').href = "https://github.com/" + userName.value
+                document.querySelector('a').href = "https://github.com/" + user.login
                 userFind.style.display = "flex"
             
         })
